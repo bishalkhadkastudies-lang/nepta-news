@@ -1,0 +1,28 @@
+# Robots.txt for Nepta News
+# Allow all crawlers to index the site
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /.env
+Disallow: /private
+Disallow: /auth
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Specific rules for other crawlers
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://neptanews.com/sitemap.xml

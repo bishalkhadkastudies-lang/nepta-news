@@ -1,0 +1,84 @@
+{
+  "name": "Nepta News - Breaking News & World News",
+  "short_name": "Nepta News",
+  "description": "Stay updated with breaking news, world news, politics, business, technology, science, health, sports, and more.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://fcpkknncvrudppocgage.supabase.co/storage/v1/object/public/assests/logo%20(1).png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://fcpkknncvrudppocgage.supabase.co/storage/v1/object/public/assests/logo%20(1).png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://fcpkknncvrudppocgage.supabase.co/storage/v1/object/public/assests/logo%20(1).png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://fcpkknncvrudppocgage.supabase.co/storage/v1/object/public/assests/logo%20(1).png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "https://fcpkknncvrudppocgage.supabase.co/storage/v1/object/public/assests/logo%20(1).png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["news"],
+  "shortcuts": [
+    {
+      "name": "World News",
+      "short_name": "World",
+      "description": "Read world news",
+      "url": "/world",
+      "icons": [
+        {
+          "src": "https://fcpkknncvrudppocgage.supabase.co/storage/v1/object/public/assests/logo%20(1).png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Politics",
+      "short_name": "Politics",
+      "description": "Read politics news",
+      "url": "/politics",
+      "icons": [
+        {
+          "src": "https://fcpkknncvrudppocgage.supabase.co/storage/v1/object/public/assests/logo%20(1).png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "short_name": "Tech",
+      "description": "Read technology news",
+      "url": "/tech",
+      "icons": [
+        {
+          "src": "https://fcpkknncvrudppocgage.supabase.co/storage/v1/object/public/assests/logo%20(1).png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
