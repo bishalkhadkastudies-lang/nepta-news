@@ -35,6 +35,8 @@ export default function SavedArticlesPage() {
   }, [authLoading, user])
 
   const fetchSavedArticles = async () => {
+    if (!user) return
+    
     try {
       setLoading(true)
       setError(null)
